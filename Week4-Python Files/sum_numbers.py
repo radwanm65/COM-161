@@ -1,8 +1,8 @@
 # This program calculates the sum of a series
 # of numbers entered by the user.
 
-big = 5   # The maximum number
-
+#big = 5   # The maximum number
+big= int(input('What is the maximum number '))
 # Initialize an accumulator variable.
 total = 0.0
    
@@ -15,7 +15,8 @@ for counter in range(big):
     number = int(input('Enter a number: '))
     total = total + number
 
+average=total/big
 # Display the total of the numbers.
-print('The total is', total)
+print('The total is', total, 'The Average is ',average)
 
 

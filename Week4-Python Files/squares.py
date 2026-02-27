@@ -1,7 +1,9 @@
-print('number\tSquare')
-print('---------------')
-
-for number in range (20,0,-1):
+print('number\tSquare\tCube')
+print('-------------------------')
+maxNumber = int(input('What is the maximum number '))
+maxNumber+=1
+for number in range (1,maxNumber):
     square = number**2
-    print(number, '\t', square)
+    cube = number**3
+    print(number, '\t', square, '\t' ,cube)
     
